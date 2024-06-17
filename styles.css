@@ -61,3 +61,18 @@ section.about {
   margin-left: 50px;
   border-radius: 5px;
 }
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 5px solid rgb(198, 8, 65);
+}
+
+.project {
+  border-radius: 5px;
+  padding: 20px;
+  border: 2px solid rgb(198, 8, 65);
+}
