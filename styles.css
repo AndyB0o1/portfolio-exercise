@@ -72,7 +72,23 @@ section.about {
 }
 
 .project {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 20px;
   border-radius: 5px;
   padding: 20px;
   border: 2px solid rgb(198, 8, 65);
 }
+
+.projectImage {
+  height: 80px;
+  width: 80px;
+  border: 1px solid rgb(198, 8, 65)
+}
+
+.projectInfo {
+  margin-left: 20px;
+}
+
+
