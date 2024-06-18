@@ -32,12 +32,14 @@ a {
 .links-left {
   display: flex;
   gap: 20px;
+  padding: 10px;
 }
 
 .links-right {
   display: flex;
-  gap: 20px;
   justify-content: end;
+  gap: 20px;
+  padding: 10px;
 }
 
 h3 {
