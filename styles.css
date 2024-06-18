@@ -14,9 +14,10 @@ header {
   display: grid;
   grid-template-columns: 3fr 2fr;
   background: #244855;
-  padding: 20px;
+  padding: 30px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  font-size: 30px;
 }
 
 a {
@@ -24,21 +25,25 @@ a {
   color: #fbe9d0;
 }
 
+.nav-link:hover {
+  background: #90AEAD;
+}
+
 .links-left {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
 }
 
 .links-right {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
   justify-content: end;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 section.about {
