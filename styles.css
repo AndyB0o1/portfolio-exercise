@@ -72,8 +72,8 @@ section.about {
   flex-direction: column;
   gap: 15px;
   padding: 30px;
-  background: #244855;
-  color: #fbe9d0;
+  background: #90AEAD;
+  color: #244855;
 }
 
 .project {
@@ -88,6 +88,10 @@ h2 {
   max-width: 100%;
 }
 
+.examples {
+  font-size: 29px;
+}
+
 .specificProject {
   display: flex;
   flex-direction: column;
@@ -95,7 +99,7 @@ h2 {
   font-size: 20px;
   border-radius: 10px;
   padding: 20px;
-  background: #D3DEDE;
+  background: rgb(36,72,85, 0.2);
   color: #244855;
 }
 
@@ -120,8 +124,8 @@ h2 {
 
 .contact {
   padding: 10px 20px;
-  background: #fbe9d0;
-  color: #244855;
+  background: #E43D12;
+  color: #fbe9d0;
 }
 
 .contactIcons {
@@ -133,7 +137,7 @@ h2 {
 }
 
 #icon {
-  color: #244855;
+  color: #fbe9d0;
 }
 
 footer {

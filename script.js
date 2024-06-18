@@ -13,7 +13,7 @@ fetch('portfolio.json').then(function (res) {
         <div class="projectText">
             <p>Description</p>
             <p>${project.desc}
-            <p><a class="github" href="${project.url}">See it on github</a></p>
+            <p><a class="github" href="${project.url}" target="_blank">See it on github</a></p>
         </div>
     </div>`
     })
