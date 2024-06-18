@@ -55,18 +55,14 @@ section.about {
   color: #244855;
 }
 
-.textAbout {
-  flex-basis: 70%;
-}
-
 .aboutMe {
   font-size: 20px;
 }
 
-.personCoding {
-  border-radius: 5px;
-  margin-top: 70px;
-  margin-left: 100px;
+.imageAbout {
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
 }
 
 .portfolio {
