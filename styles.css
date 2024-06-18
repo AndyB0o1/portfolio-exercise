@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 95%;
+  max-width: 100%;
 }
 
 header {
@@ -82,6 +82,8 @@ section.about {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
   gap: 20px;
   padding: 20px;
 }
@@ -101,7 +103,7 @@ section.about {
 }
 
 .projectImage {
-  flex-basis: 90%;
+  max-width: 100%;
 }
 
 .github {
@@ -138,3 +140,10 @@ footer {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+@media screen and (max-width: 500px) {
+  .portfolio {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
