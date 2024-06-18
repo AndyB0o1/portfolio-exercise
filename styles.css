@@ -89,14 +89,14 @@ h2 {
 }
 
 .specificProject {
-  background: #90AEAD;
-  color: #244855;
   display: flex;
   flex-direction: column;
   max-width: 30%;
   font-size: 20px;
   border-radius: 10px;
   padding: 20px;
+  background: #90AEAD;
+  color: #244855;
 }
 
 .projectText {
@@ -109,8 +109,8 @@ h2 {
 }
 
 .github {
-  color: #fbe9d0;
   padding: 2px;
+  color: #fbe9d0;
 }
 
 .github:hover {
@@ -119,17 +119,17 @@ h2 {
 }
 
 .contact {
+  padding: 10px 20px;
   background: #fbe9d0;
   color: #244855;
-  padding: 10px 20px;
 }
 
 .contactIcons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 10fr;
   padding: 10px;
-  font-size: 30px;
   margin-right: 15px;
+  font-size: 30px;
 }
 
 #icon {
@@ -137,14 +137,12 @@ h2 {
 }
 
 footer {
-  background: #244855;
-  color: #fbe9d0;;
   padding: 20px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  background: #244855;
+  color: #fbe9d0;
 }
-
-
 
 @media screen and (max-width: 500px) {
   header {
