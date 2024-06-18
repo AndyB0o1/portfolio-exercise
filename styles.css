@@ -48,9 +48,9 @@ h3 {
 
 section.about {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
   gap: 15px;
-  padding: 20px;
+  padding: 25px;
   background: #fbe9d0;
   color: #244855;
 }
@@ -64,9 +64,9 @@ section.about {
 }
 
 .personCoding {
-  width: 200px;
-  margin-top: 50px;
-  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-left: 100px;
 }
 
 .portfolio {
@@ -81,19 +81,19 @@ section.about {
 .project {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-around;
   max-width: 100%;
   gap: 20px;
   padding: 20px;
 }
 
 .specificProject {
+  background: #90AEAD;
+  color: #244855;
   display: flex;
   flex-direction: column;
   font-size: 20px;
   max-width: 30%;
-  border: 2px solid #fbe9d0;
   border-radius: 10px;
   padding: 20px;
 }
@@ -104,6 +104,7 @@ section.about {
 
 .projectImage {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .github {
@@ -142,7 +143,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-  .portfolio {
+  .project {
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: center;
