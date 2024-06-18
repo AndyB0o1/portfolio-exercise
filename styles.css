@@ -11,8 +11,8 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
+  display: flex;
+  justify-content: space-between;
   background: #244855;
   padding: 30px;
   border-top-left-radius: 15px;
@@ -31,13 +31,11 @@ a {
 
 .links-left {
   display: flex;
-  flex-direction: row;
   gap: 20px;
 }
 
 .links-right {
   display: flex;
-  flex-direction: row;
   gap: 20px;
   justify-content: end;
 }
@@ -80,11 +78,14 @@ section.about {
 
 .project {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   max-width: 100%;
   gap: 20px;
   padding: 20px;
+}
+
+h2 {
+  max-width: 100%;
 }
 
 .specificProject {
@@ -92,8 +93,8 @@ section.about {
   color: #244855;
   display: flex;
   flex-direction: column;
-  font-size: 20px;
   max-width: 30%;
+  font-size: 20px;
   border-radius: 10px;
   padding: 20px;
 }
@@ -109,10 +110,11 @@ section.about {
 
 .github {
   color: #fbe9d0;
+  padding: 2px;
 }
 
 .github:hover {
-  background: #90AEAD;
+  background: #244855;
   color: #fbe9d0;
 }
 
@@ -142,9 +144,28 @@ footer {
   border-bottom-right-radius: 15px;
 }
 
-@media screen and (max-width: 500px) {
-  .project {
+
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .links-left {
+    flex-direction: column;
+  }
+
+  .links-right {
+    flex-direction: column;
+  }
+  .about {
       flex-direction: column;
-      flex-wrap: wrap;
       justify-content: center;
   }
+
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+}
